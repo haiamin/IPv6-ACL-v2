@@ -53,7 +53,6 @@ for row in csv.DictReader(open(CSVDATA_FILENAME)):
 
     print "\n\n>>>>>>>>> Device {0} <<<<<<<<<".format(device['device_type'])
 
-
     for line in output.split('\n'):
         if "Giga" in line:
             print "##################### INTERFACE #####################"
